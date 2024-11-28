@@ -152,7 +152,6 @@ h1 {
     width: 100%;
     height: auto; 
     padding-top: 5%;
-    padding-bottom: 5%;
     padding-left: 25%;
     align-items: center;
     display: flex;
@@ -163,7 +162,7 @@ h1 {
 #formy {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center; 
     background-position: 30% 45%;
@@ -176,8 +175,8 @@ h1 {
     align-items: center;
     text-align: center;
     padding-left: 23%;
-    background-image: url(fundo.jpg);
-    padding-top: 5%;
+    background-image: linear-gradient(to top, transparent 0%, #fff 100%), url(fundo.jpg);
+    padding-top: 15%;
     padding-bottom: 5%;
 }
 
